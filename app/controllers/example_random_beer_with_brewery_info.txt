@@ -1,0 +1,60 @@
+#<BreweryDB::Mash abv="5.2" 
+
+	breweries=[#<BreweryDB::Mash 
+		create_date="2012-01-03 02:42:08" 
+		description="The Sleeman brewery is located at the edge of southern Guelph, approximately 80 kilometres West of Toronto.\n\nEstablished by John Sleeman, with a lineage that extends over five generations, John takes particular pride in his heritage. In fact, when it comes to beer tradition, his grandfather George A. Sleeman wrote the book on it - literally. \n\nJohn's family's brewing tradition in Canada extends back to 1834 when John H. Sleeman arrived in Ontario from Cornwall, England. By 1851, he started the first Sleeman brewery to be located in Guelph, Ontario, brewing small 100-barrel batches. \n\nThe passion that drove John's great-great-grandfather to begin his renowned Canadian brewing tradition is the same passion that runs through John's veins today - and we look forward to passing on the tradition to many more generations to come.\n\nAn art as much as a science, beer making depends equally on the talent of the brewmaster and the quality of the ingredients. \n\nPremium brewing employs a time-honoured process in which natural ingredients are blended in myriad combinations and brewed in small batches to produce beers that range from contemporary light brews to 'Old World' dark stouts." 
+		established="1851" 
+		id="D61TcY" 
+		images=#<BreweryDB::Mash 
+			icon="https://s3.amazonaws.com/brewerydbapi/brewery/D61TcY/upload_B9Bsxc-icon.png" 
+			large="https://s3.amazonaws.com/brewerydbapi/brewery/D61TcY/upload_B9Bsxc-large.png" 
+			medium="https://s3.amazonaws.com/brewerydbapi/brewery/D61TcY/upload_B9Bsxc-medium.png"> 
+		is_organic="N" 
+
+		locations=[#<BreweryDB::Mash 
+			country=#<BreweryDB::Mash 
+				create_date="2012-01-03 02:41:33" 
+				display_name="Canada" 
+				iso_code="CA" 
+				iso_three="CAN" 
+				name="CANADA" 
+				number_code=124> 
+				country_iso_code="CA" 
+				create_date="2012-01-03 02:42:08" 
+				id="q878Wn" 
+				in_planning="N" 
+				is_closed="N" 
+				is_primary="Y" 
+				latitude=43.4870365 
+				locality="Guelph" 
+				location_type="micro" 
+				location_type_display="Micro Brewery" 
+				longitude=-80.2067709 
+				name="Main Brewery" 
+				open_to_public="Y" 
+				phone="1-519-822-1834" 
+				region="Ontario" 
+				status="verified" 
+				status_display="Verified" 
+				street_address="551 Clair Road West" 
+				update_date="2014-07-23 19:11:34">] 
+			
+			name="Sleeman Breweries Ltd." 
+			status="verified" 
+			status_display="Verified" 
+			update_date="2012-08-01 00:52:47" 
+			website="http://www.sleeman.ca/">] 
+			
+		create_date="2012-08-01 00:18:04" 
+		description="Smooth Sleeman Honey Brown Lager is brewed in the tradition of cottage breweries at the turn of the century. Some might think the tradition is outdated; we just think we got it right the first time. \n\nTasting notes: Our Honey Brown boasts a rich copper with a creamy, off-white foam, creating a full-bodied lager with a touch of natural honey and a slightly sweet finish. The distinctive clover honey notes in this fine brew accent the aromas of toasted grain and caramel." 
+		id="3F4ty9" 
+		is_organic="N" 
+
+		labels=#<BreweryDB::Mash 
+			medium="http://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/240px-No_image_available.svg.png"> 
+			name="Honey Brown Lager" 
+			name_display="Honey Brown Lager" 
+			status="verified" 
+			status_display="Verified" 
+			update_date="2015-05-08 14:42:44">
+			

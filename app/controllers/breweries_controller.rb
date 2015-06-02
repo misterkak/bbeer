@@ -24,8 +24,29 @@ class BreweriesController < ApplicationController
   	brewery_db = BreweryDB::Client.new do |config|
 		  config.api_key = Rails.application.secrets.brewery_db_api_key
 		end
-  	@random = brewery_db.beers.random
+  	# random = brewery_db.beers.random(abv: '5')
+		# random = brewery_db.beers.random
+		random = brewery_db.beers.random(withBreweries:'Y')
+  	puts params
+  	while !random.description
+  		puts "There is no description for the following beer, so we won't display it: #{random.name}"
+  		random = brewery_db.beers.random
+  	end
+  	if !random.labels
+  		random.labels!.medium = "http://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/240px-No_image_available.svg.png"
+  	end
+  	@random = random
   end
+
+  def find_ibu
+		# send_api_key
+  	brewery_db = BreweryDB::Client.new do |config|
+		  config.api_key = Rails.application.secrets.brewery_db_api_key
+		end
+		results = brewery_db.beers.all(abv: '5.5', withBreweries: 'y')
+		@results = results  
+  end
+
 
   # GET /breweries/1
   # GET /breweries/1.json
